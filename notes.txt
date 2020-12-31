@@ -1,0 +1,37 @@
+Why Use Rust?
+
+Rust is a statically and strongly typed systems programming language. statically means that all types are known at compile-time, strongly means that these types are designed to make it harder to write incorrect programs.
+
+The big difference from C and C++ is that Rust is safe by default; all memory accesses are checked. It is not possible to corrupt memory by accident.
+
+The unifying principles behind Rust are:
+
+strictly enforcing safe borrowing of data
+functions, methods and closures to operate on data
+tuples, structs and enums to aggregate data
+pattern matching to select and destructure data
+traits to define behaviour on data
+
+
+Setup
+
+First you need to install rust it is ideal to have homebrew installed to tun the brew, to do this open the terminal and run the following commands
+
+in the terminal run the following : brew install rustup
+
+After you run this command you can install the compiler and package manager
+
+rustup-init
+
+**When you run this command select option 1***
+
+To verify the installation run the command: rustc —-version
+
+To enable use of rust in vscode we have to use the RLS (rust language server)
+
+download the rust extension this will contain the RLS
+
+you then need to check if you have cargo which is rusts package manager
+
+cargo --version
+
