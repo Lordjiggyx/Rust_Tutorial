@@ -35,3 +35,17 @@ you then need to check if you have cargo which is rusts package manager
 
 cargo --version
 
+--First Project--
+
+Using rusts package manager we will create a simple hello world Project
+
+to do this cd into the desired folder and run 
+
+cargo new [project_name]
+
+A folder and a file called main.rs should be created 
+
+to run a rust project you must use the following commands 
+
+cargo build
+cargo run
