@@ -45,7 +45,57 @@ cargo new [project_name]
 
 A folder and a file called main.rs should be created 
 
-to run a rust project you must use the following commands 
+to run a rust project you must use the following commands **In the folder where the project is**
 
 cargo build
 cargo run
+
+
+--BASICS--
+
+Functions in rust are defined using the word "fn" and "main" is a predefined function that acts as the entry point of a prohram
+
+
+A macros are extended versions of functions they're names end with an exclamation mark, they provide runtime features
+
+Comments are a way to improve the readability of a program. Comments can be used to include additional information about a program like author of the code, hints about a function/ construct, etc. The compiler ignores comments.
+
+Rust supports the following types of comments −
+
+Single-line comments ( // ) − Any text between a // and the end of a line is treated as a comment
+
+Multi-line comments (/* */) − These comments may span multiple lines.
+
+every line ends with a semi colon
+
+-VARIABLES-
+Use the let keyword to declare a variable.
+
+The Type System represents the different types of values supported by the language. The Type System checks validity of the supplied values, before they are stored or manipulated by the program. 
+
+Rust is a statically typed language. Every value in Rust is of a certain data type. The compiler can automatically infer data type of the variable based on the value assigned to it. so you dibt need to actually determine the calue 
+
+There are 4 main data types
+stringformatfloat
+boolean
+unicode character
+
+-Scalar Types-
+
+Rust has 4 scalar types this is used to show a single value e.g 10,3,c
+
+These 4 are 
+
+Integer
+Floating-point
+Booleans
+Characters
+
+-Integer-
+
+An integer is a number without a fractional component. Simply put, the integer data type is used to represent whole numbers.
+
+Integers can be further classified as Signed and Unsigned. Signed integers can store both negative and positive values. Unsigned integers can only store positive values. A detailed description if integer types is given below
+
+Most integeres are i32 e.g 32bit postive and negative values 
+
